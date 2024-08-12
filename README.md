@@ -27,4 +27,5 @@ Este projeto foi desenvolvido durante o curso **Java COMPLETO 2023 Programação
 
 ## Autor
 Vitor Bernardo Batista
+
 https://www.linkedin.com/in/vitorbernardobatista
