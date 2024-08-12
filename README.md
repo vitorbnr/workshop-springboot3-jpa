@@ -1,5 +1,8 @@
 # Projeto Web Services com Spring Boot e JPA/Hibernate
 
+##
+https://github.com/vitorbnr/workshop-springboot3-jpa/blob/main/LICENSE
+
 ## Sobre o Projeto
 Este projeto foi desenvolvido durante o curso **Java COMPLETO 2023 Programação Orientada a Objetos + Projetos**, ministrado pela [DevSuperior]. O objetivo principal é criar uma aplicação web utilizando Spring Boot e JPA/Hibernate para gerenciar operações CRUD.
 
