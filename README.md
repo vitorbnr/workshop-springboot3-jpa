@@ -1,4 +1,4 @@
-# Workshop Spring Boot 3 com JPA 🚀
+# Workshop Spring Boot 3 JPA 🚀
 
 Este projeto faz parte de um workshop prático para aprendizado e aplicação dos conceitos de Spring Boot 3 e JPA (Java Persistence API). A aplicação consiste em uma API REST para gerenciamento de usuários, incluindo operações CRUD e persistência de dados.
 
