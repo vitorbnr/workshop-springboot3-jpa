@@ -39,21 +39,6 @@ Importe o projeto como Maven Project.
 
 Execute a classe principal CourseApplication.java.
 
-## Instruções de Uso 📋
-
-Rotas GET
-/users → Retorna todos os usuários
-/users/{id} → Retorna um usuário pelo ID
-
-Rotas POST
-/users → Cadastra um novo usuário
-
-Rotas PUT
-/users/{id} → Atualiza um usuário existente
-
-Rotas DELETE
-/users/{id} → Remove um usuário
-
 ## Visualize o H2 Console
 Caso utilize o banco H2, siga os passos abaixo para acessar o console e visualizar os dados:
 
