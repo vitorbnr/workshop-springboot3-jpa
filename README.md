@@ -37,7 +37,7 @@ Abra sua IDE de preferência.
 
 Importe o projeto como Maven Project.
 
-Execute a classe principal WorkshopSpringboot3JpaApplication.java.
+Execute a classe principal CourseApplication.java.
 
 ## Instruções de Uso 📋
 
