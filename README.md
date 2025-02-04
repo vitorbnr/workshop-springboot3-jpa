@@ -1,31 +1,75 @@
-# Projeto Web Services com Spring Boot e JPA/Hibernate
+# Workshop Spring Boot 3 com JPA 🚀
 
-##
-[![NPM](https://img.shields.io/bower/l/react)](https://github.com/vitorbnr/workshop-springboot3-jpa/blob/main/LICENSE)
+Este projeto faz parte de um workshop prático para aprendizado e aplicação dos conceitos de Spring Boot 3 e JPA (Java Persistence API). A aplicação consiste em uma API REST para gerenciamento de usuários, incluindo operações CRUD e persistência de dados.
 
-## Sobre o Projeto
-Este projeto foi desenvolvido durante o curso **Java COMPLETO 2023 Programação Orientada a Objetos + Projetos**, ministrado pela [DevSuperior]. O objetivo principal é criar uma aplicação web utilizando Spring Boot e JPA/Hibernate para gerenciar operações CRUD.
+## Tecnologias Utilizadas 💻
 
-## Objetivos
-- Criar um projeto Java com Spring Boot
-- Implementar o modelo de domínio
-- Estruturar as camadas lógicas: resource, service, repository
-- Configurar um banco de dados de teste (H2)
-- Povoar o banco de dados
-- Implementar operações CRUD (Create, Retrieve, Update, Delete)
-- Realizar tratamento de exceções
+- **Java 17**
+- **Spring Boot 3**
+- **Spring Data JPA**
+- **Hibernate**
+- **Banco de Dados H2 (testes)**
+- **Banco de Dados MySQL/PostgreSQL (produção)**
+- **Maven**
+  
+## Como Executar 🚀
+Para executar o projeto localmente, siga os passos abaixo:
 
-## Tecnologias Utilizadas
-### Back End
-- Java
-- Spring Boot
-- JPA/Hibernate
-- Maven
+Clone o repositório:
+ ```bash
+git clone https://github.com/vitorbnr/workshop-springboot3-jpa.git
+```
+Navegue até o diretório do projeto:
+```bash
+cd workshop-springboot3-jpa
+```
+Compile e instale as dependências:
+```bash
+./mvnw clean install
+```
+Execute o projeto no terminal:
+```bash
+./mvnw spring-boot:run
+```
+Caso queira executar o projeto na IDE:
 
-### Banco de Dados
-- PostgreSQL
+Abra sua IDE de preferência.
 
-## Autor
-Vitor Bernardo Batista
+Importe o projeto como Maven Project.
 
-https://www.linkedin.com/in/vitorbernardobatista
+Execute a classe principal WorkshopSpringboot3JpaApplication.java.
+
+## Instruções de Uso 📋
+
+Rotas GET
+/users → Retorna todos os usuários
+/users/{id} → Retorna um usuário pelo ID
+
+Rotas POST
+/users → Cadastra um novo usuário
+
+Rotas PUT
+/users/{id} → Atualiza um usuário existente
+
+Rotas DELETE
+/users/{id} → Remove um usuário
+
+## Visualize o H2 Console
+Caso utilize o banco H2, siga os passos abaixo para acessar o console e visualizar os dados:
+
+Certifique-se de que a aplicação está rodando.
+Acesse o H2 Console no navegador:
+```bash
+http://localhost:8080/h2-console
+```
+Use as credenciais abaixo para login:
+JDBC URL: jdbc:h2:mem:testdb
+User Name: sa
+Password: (deixe em branco)
+## Aprendizados 📚
+Este projeto foi desenvolvido para reforçar os seguintes conceitos:
+
+Desenvolvimento de APIs RESTful com Spring Boot 3.
+Persistência de dados utilizando JPA e Hibernate.
+Configuração de banco de dados H2, MySQL e PostgreSQL.
+Implementação de operações CRUD e boas práticas no backend.
